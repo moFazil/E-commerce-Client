@@ -1,6 +1,6 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom';
-import design from '../Footwear/Images/con.jpg'
+
 
 const Footwear = () => {
   const footwear =[
@@ -32,7 +32,6 @@ const Footwear = () => {
   return (
     <div>
       <div className=' mt-16 mx-11'>
-        <img src={design} alt="" />
       </div>
     <div className='grid grid-cols-3 mt-16 gap-12'>
       {
