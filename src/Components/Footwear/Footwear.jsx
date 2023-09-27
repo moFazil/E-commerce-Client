@@ -33,7 +33,7 @@ const Footwear = () => {
     <div>
       <div className=' mt-16 mx-11'>
       </div>
-    <div className='grid grid-cols-3 mt-16 gap-12'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 mt-16 gap-12'>
       {
         footwear.map((d)=>(
           <div className='w-[250px] h-[250px]  relative mx-5 px-6'>

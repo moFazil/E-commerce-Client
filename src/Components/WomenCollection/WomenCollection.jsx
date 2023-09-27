@@ -27,7 +27,7 @@ const WomenCollection = () => {
       <img src={design} alt="" />
     </div>
   
-  <div className='grid grid-cols-3 mt-16 gap-12'>
+  <div className='grid grid-cols-1 sm:grid-cols-2 mt-16 gap-12'>
 
   {
     womenSection.map((c)=>(

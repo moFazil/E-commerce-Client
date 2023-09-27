@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
     const currentYear = new Date().getFullYear()
   return (
-        <footer className='bg-redC '>
-          <div className='flex justify-between text-[#fff] px-20 pt-10'>
+        <footer className='bg-redC'>
+          <div className='sm:flex justify-between text-[#fff] px-20 pt-10'>
           <div className=' flex flex-col justify-center text-start'>
             <h1 className=' font-extrabold text-2xl ml-3 '>ShopNow</h1>
           <Link to={`/men`}><p className=' p-4 font-bold '>Men</p></Link>
@@ -14,7 +14,7 @@ const Footer = () => {
           <Link to={`/bags`}><p className=' p-4  font-bold'>Bags</p></Link>
           </div>
          
-          <div className=' text-start flex flex-col justify-center'>
+          <div className=' text-start flex flex-col justify-center sm:mt-0 mt-6'>
             <p>Contact Us</p>
             <p>Need help? Get in touch with us and </p>
             <p>we'll be more than happy to guide you through!</p>

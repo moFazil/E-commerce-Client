@@ -32,8 +32,7 @@ const mensSection =[
         <img src={design} alt="" />
       </div>
     
-    <div className='grid grid-cols-3 mt-16 gap-12 mx-5
-    '>
+    <div className='grid grid-cols-1 mt-16 gap-12 mx-5 sm:grid-cols-2'>
 
       {
         mensSection.map((b)=>(

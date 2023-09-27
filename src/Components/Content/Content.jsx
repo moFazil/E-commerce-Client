@@ -41,7 +41,7 @@ export const Content = () => {
     <div className=' mt-16 mx-11' >
         <img src={require("../Content/images/Content.png")} alt="" />
 
-        <div className=' my-20 px-10 grid grid-cols-2 grid-rows-2 gap-20'>
+        <div className=' my-20 px-10 grid md:grid-cols-2 grid-rows-2 gap-20 grid-cols-1'>
       {
         images.map((i)=>(
           <div key={i.id} className='w-[200px] h-[200px]  relative mx-5'>

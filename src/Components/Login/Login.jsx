@@ -13,6 +13,8 @@ const Login = () => {
       Email : Email,
       Password : Password, 
     })
+    .then(result => console.log(result))
+    .catch(err=>console.log(err))
   }
 
 

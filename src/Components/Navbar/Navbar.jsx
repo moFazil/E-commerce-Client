@@ -38,8 +38,8 @@ let Navbar=()=>{
 
 
             {isMensOpen && (
-              <div className=" absolute bg-[#F5F5F5] flex text-left justify-evenly w-full py-8 left-0 ">
-                  <div className="p-3">
+              <div className=" absolute bg-[#F5F5F5] flex text-left justify-evenly w-full py-8 left-0 z-10">
+                  <div className="p-3 hidden sm:block">
                      <h1 className=" my-2 font-semibold text-base cursor-pointer">New & Men</h1>
                      <p className=" text-gray-500 text-base cursor-pointer hover:underline hover:text-black">New Arrivals</p>
                      <p className=" text-gray-500 text-base cursor-pointer hover:underline hover:text-black">Latest Shoes</p>
@@ -56,7 +56,7 @@ let Navbar=()=>{
 
                   </div>
                   
-                  <div className="p-3">
+                  <div className="p-3 ">
 
                      <h1 className="my-2 font-semibold text-base cursor-pointer">New for Women</h1>
                      <p className=" text-gray-500 text-base cursor-pointer hover:underline hover:text-black">Shoes</p>
@@ -86,8 +86,8 @@ let Navbar=()=>{
 
 
             {isWomensOpen && (
-              <div className=" absolute bg-[#F5F5F5]  flex text-left justify-evenly w-full py-8 left-0">
-                  <div className="p-3">
+              <div className=" absolute bg-[#F5F5F5]  flex text-left justify-evenly w-full py-8 left-0 z-10">
+                  <div className="p-3 hidden sm:block">
                      <h1 className="my-2 font-semibold text-base cursor-pointer">Mens</h1>
                      <p className=" text-gray-500 text-base cursor-pointer hover:underline hover:text-black">New Releases</p>
                      <p className=" text-gray-500 text-base cursor-pointer hover:underline hover:text-black">Best Sellers</p>
@@ -141,8 +141,8 @@ let Navbar=()=>{
                     <Link to={`/footwear`}><p className='px-5 py-2 font-semibold'>Footwear</p></Link>
 
             {isFootwearOpen && (
-              <div className=" absolute bg-[#F5F5F5]  flex text-left justify-evenly w-full py-8 left-0">
-                  <div className="p-3">
+              <div className=" absolute bg-[#F5F5F5]  flex text-left justify-evenly w-full py-8 left-0 z-10">
+                  <div className="p-3 hidden sm:block">
                      <h1 className="my-2 font-semibold text-base cursor-pointer">Mens</h1>
                      <p className=" text-gray-500 text-base cursor-pointer hover:underline hover:text-black">New Releases</p>
                      <p className=" text-gray-500 text-base cursor-pointer hover:underline hover:text-black">Best Sellers</p>
@@ -192,8 +192,8 @@ let Navbar=()=>{
                   <Link to={`/bags`}><p className='px-5 py-2 font-semibold'>Bags</p></Link>
 
             {isBagsOpen && (
-              <div className=" absolute bg-[#F5F5F5]  flex text-left justify-evenly w-full py-8 left-0">
-                  <div className="p-3">
+              <div className=" absolute bg-[#F5F5F5]  flex text-left justify-evenly w-full py-8 left-0 z-10">
+                  <div className="p-3 hidden sm:block">
                      <h1 className="my-2 font-semibold text-base cursor-pointer">Mens</h1>
                      <p className=" text-gray-500 text-base cursor-pointer hover:underline hover:text-black">New Releases</p>
                      <p className=" text-gray-500 text-base cursor-pointer hover:underline hover:text-black">Best Sellers</p>
@@ -234,7 +234,7 @@ let Navbar=()=>{
             )}
           </div>
       
-          <div className=''>
+          <div className=' hidden md:block'>
              <input type="search" placeholder='Search' className='border-2 border-slate-400/50 w-[230px] h-9 pl-3 outline-none rounded'/>
       </div>
       </div>
