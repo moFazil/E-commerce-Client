@@ -6,7 +6,7 @@ const Footer = () => {
   return (
         <footer className='bg-redC'>
           <div className='sm:flex justify-between text-[#fff] px-20 pt-10'>
-          <div className=' flex flex-col justify-center text-start'>
+          <div className=' sm:flex flex-col justify-center text-start hidden'>
             <h1 className=' font-extrabold text-2xl ml-3 '>ShopNow</h1>
           <Link to={`/men`}><p className=' p-4 font-bold '>Men</p></Link>
           <Link to={`/women`}><p className=' p-4 font-bold '>Women</p></Link>
@@ -23,7 +23,7 @@ const Footer = () => {
               <Link to={`/`}><p>fazelcm2000@gmail.com</p></Link>
               <p>1800 183 3575</p>
             </div>
-            <div className=' py-5'>
+            <div className=' py-5 hidden sm:block'>
               <p>Service Reps are available for inquiries<br/>
                  Monday to Friday from 10AM to 6PM.</p>
             </div>
